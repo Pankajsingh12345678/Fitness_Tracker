@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Backend
+server/.env
+server/.DS_Store
+
+# Frontend
+client/build/
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Dependencies
+*/node_modules/
+*/package-lock.json
+*/yarn.lock
+
+# Build output
+*/build/
+*/dist/
+*/out/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.cert
+*.pem
+*.key
+
+# Old directories (if exist)
+frontend/
+backend/
